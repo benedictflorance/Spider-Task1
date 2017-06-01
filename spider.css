@@ -8,7 +8,6 @@ body {
 	background-position: left top;
 	background-size: cover;
 	width: 100%;
-	height:740px;
 	text-align: center;
 	}
 .nav{
@@ -56,7 +55,7 @@ body {
   	margin: 10px auto 0px auto;
 }
 #quote{
-	margin-top: 100px;
+	margin-top: 80px;
 	float: left;
 	clear: both;
 	text-align: center;
@@ -68,4 +67,67 @@ body {
 }
 .float{
 clear: both;
+}
+#about{  margin: 0px 0px;
+	background-image:url("footerbg.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	}
+.aboutme{float:left;
+	margin-top: 100px;
+	padding:0px 15px 0px 15px;
+	width:30%;
+	border-width: 0px 2px 0px 0px;
+	border-style: outset;
+	border-color:#000000;
+	line-height: 2em;
+	font-weight: bold;
+	text-align: center;
+	font-size: 17px;
+}
+.interest{float:left;
+	margin-top: 100px;
+	padding:0px 15px 0px 15px;
+	width:30%;
+	border-width: 0px 2px 0px 0px;
+	border-style: groove;
+	border-color:#000000;
+	text-align: right;
+	font-weight: bold;
+	font-size:20px;
+}
+#about h1,h2{
+	color: #006400;
+	text-shadow: 1px 1px 0px #00ff3b ;
+}
+#about img{
+    border-radius: 50%;
+}
+.teams{
+	float:left;
+	margin-top: 100px;
+	padding:0px 15px 0px 15px;
+	width:30%;
+	font-weight: bold;
+	font-size:20px;
+	text-align: left;
+}
+.l{text-align: left;
+	color:#000000;
+	text-shadow: 1px 1px 1px #d3d3d3}
+.r{text-align: right;
+	color:#228B22;
+	text-shadow: -1px -1px 2px #d3d3d3}
+.l a{color:#000000;
+	text-shadow: 1px 1px 1px #d3d3d3
+}
+.r a{color:#228B22;
+	text-shadow: -1px -1px 2px #d3d3d3
+}
+.teams a,a:hover,a:visited{
+	text-decoration: none;
 }
