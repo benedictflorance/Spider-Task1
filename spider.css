@@ -23,8 +23,7 @@ body {
 .nav a{
 	color: #10d3ed;
 	font-family: 'PT Sans', sans-serif;
-	margin: 3.5vw;
-	padding: 0px 5vw 0px 5vw;
+	padding: 0px 7vw 0px 7vw;
 	font-size:25px;
 	font-weight: bold;
 	text-shadow: 0.7px 0.7px 2.5px #a36a6a;
@@ -77,21 +76,23 @@ clear: both;
 	font-family: 'Open Sans', sans-serif;
 	}
 .aboutme{float:left;
-	margin-top: 6.5vw;
+	margin-top: 15vh;
 	padding:0px 1vw 0px 1vw;
 	width:30vw;
+	height:85vh;
 	border-width: 0px 2px 0px 0px;
 	border-style: outset;
 	border-color:#000000;
-	line-height: 2em;
+	line-height: 1.8em;
 	font-weight: bold;
 	text-align: center;
-	font-size: 17px;
+	font-size: 16px;
 }
 .interest{float:left;
-	margin-top: 6.5vw;
+	margin-top: 15vh;
 	padding:0px 1vw 0px 1vw;
 	width:30vw;
+	height:85vh;
 	border-width: 0px 2px 0px 0px;
 	border-style: groove;
 	border-color:#000000;
@@ -108,9 +109,10 @@ clear: both;
 }
 .teams{
 	float:left;
-	margin-top: 6.5vw;
+	margin-top: 15vh;
 	padding:0px 1vw 0px 1vw;
 	width:30vw;
+	height:85vh;
 	font-weight: bold;
 	font-size:18px;
 	text-align: left;
@@ -168,7 +170,7 @@ vertical-align: middle;
 }
 #contact{
 	width: 100vw;
-	height:15vh;
+	height:20vh;
 	background-color: #a08d8d;
 	font-size: 35px;
 	text-align: center;
@@ -185,7 +187,7 @@ vertical-align: middle;
 }
 #footer{
 	width: 100vw;
-	height:8vh;
+	height:10vh;
 	padding: 1vw 0px 1vw 0px;
 	font-family: 'PT Sans', sans-serif;
 	font-color:#ffffff;
@@ -195,16 +197,7 @@ vertical-align: middle;
 	background-color: #a08d8d;
 	font-weight: bold;
 	margin: 0px;
-
 }
-@media only screen and (max-width: 768px) 
-{
-	#home{
-		background-image:url("mobhead.jpg");
-	}
-	#about{
-		background-image:url("mobfooterbg.jpg");
-	}
-	.aboutme{width:100vw;}
-	.interest{width:100vw;}
-	.teams{width:100vw;}
+@media only screen and (max-width: 768px) {
+}
+
