@@ -1,37 +1,70 @@
+body{
+	text-align:center;
+	font-family: 'PT Sans', sans-serif;
+	background-color: #63a6dd;
+	height:90vh;
+}
+h1,h2{
+	color: #f24646;
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 1px 1px 1px #000000;
+
+}
+#container{
+	padding-left:30vw;
+}
 .box{
-	width:175px;
-	height:175px;
+	width:11vw;
+	height:24vh;
 	float: left;
 	border-width:3px;
 	border-radius:5px;
-	border-color: black;
-	border-style: solid;
+	border-color: #0f56c1;
+	border-style: groove;
 	float: left;
-	margin:15px;
 	text-align:center;
-	padding: 0px 5px 0px 5px;
+	background: #ef4343;
+	padding: 0px 1vw 0px 1vw;
 }
 .box p{
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 3px;
 	font-size: 100px;
 	position: relative;
-	bottom: 40%;
+	color: #0f56c1;
+	text-shadow: 1px 1px 0px #4ee549;
+	bottom: 10vh;
 }
-#button{
-	clear:both;
+.float{clear:both;}
+.button{
+	margin-left:5.5vw;
+	float:left;
 	text-align: center;
-	width:60px;
-	padding:5px;
-	margin:10px;
-	border-width:3px;
-	border-radius:5px;
+	padding:1vh 0.5vw 1vh 0.5vw;
+	border-width:1.5px;
+	border-radius:2px;
+	border-color: #000000;
+	height: 5vh;
 	border-color: black;
 	border-style: solid;
 	font-family: 'PT Sans', sans-serif;
-}
-#spin{
 	text-decoration:none;
-	font-color: red;
+	background: #ededed;
+	color: #ff00c7;
+	text-shadow: 1px 1px 0px #4ee549;
 	font-size: 25px;
 }
+a:hover{
+color: #0f56c1;
+text-shadow: 1px 1px 0px #4ee549;
+}
+#status{clear:both;
+margin-left:10vw;}
+@media only screen and (max-width: 768px) {
+	.box{
+	width:24vw;
+	height:24vh;}
+#container{
+	padding-left:7vw;
+}
+#copy{font-size:10px;}

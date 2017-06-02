@@ -5,8 +5,14 @@
 	<link href="jackpot.css" type="text/css" rel="stylesheet"/>
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+<h1>Cherry Jackpot Game</h1>
+<h2>Hit the Jackpot, gain 50 points ;) Miss the Jackpot, lose 1 point :/</h2>
+<p id="copy"> benedictflorance.github.io &copy 2017<br>
+ Made with &#10084 by Benedict</p>
+<div id=container>
 <div class="box">
 <p id="box1">7</p>				
 </div>
@@ -16,12 +22,14 @@
 <div class="box">
 <p id="box3">7</p>
 </div>
-<div id="button">
-<a href="#" id="spin">Spin</a>
+<p>
+<p class="float"></p>
+<a href="#" id="spin" class="button">Spin</a>
+<a href="" id="restart" class="button">Restart</a>
+<a id="pictures" href="#" class=button>Picture Spin</a></p>
+<br>
+<p id="status" class="button">Let's see, how your luck is!</p>
 </div>
-<p id="status">Let's see, how your luck is!</p>
-<p><a href="" id="restart">Restart</a></p>
-<a id="pictures" href="#">Picture Spin</a>
 <script src="jackpot.js"></script>
 </body>
 </html>

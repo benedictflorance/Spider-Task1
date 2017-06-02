@@ -10,7 +10,7 @@ var incr=Math.floor(Math.random()*20+1);
 function addNos(e){
 	count++;
 	e.preventDefault();
-	//To increase the probability for winning, at some random try all the boxes are made the same number
+	//To increase the probability for winning, at some random try within 20 all the boxes are made the same number
 	if(incr==count)
 	{b1.textContent=b2.textContent=b3.textContent=Math.floor(Math.random()*9+1);
 		incr+=20;}
@@ -20,18 +20,18 @@ function addNos(e){
 	b3.textContent=Math.floor(Math.random()*9+1);}
 	if((b1.textContent==b2.textContent)&&(b2.textContent==b3.textContent))
 	{	points+=50;
-		stat.innerHTML="Congrats, You won in this spin! :) <br> Points: "+points;
+		stat.innerHTML="Congrats, You won! :) <br><br> Points: "+points;
 	}
 	else
 	{	points--;
-		stat.innerHTML="Better luck, next time :/ <br> Points: "+points;
+		stat.innerHTML="Better luck, next time :/ <br><br> Points: "+points;
 	}
 }
 
 function addPics(e){
 	countpic++;
 	e.preventDefault();
-	//To increase the probability for winning, at some random try all the boxes are made the same number
+	//To increase the probability for winning, at some random try within 20 all the boxes are made the same number
 	if(incr==countpic)
 	{b1.innerHTML=b2.innerHTML=b3.innerHTML="<img src=\"images\\"+Math.floor(Math.random()*9+1)+".png\" width=100px height=100px />"
 		incr+=20;}
@@ -45,11 +45,11 @@ function addPics(e){
 	}
 	if(a==b&b==c)
 	{	picpoints+=50;
-		stat.innerHTML="Congrats, You won in this spin! :) <br> Points: "+picpoints;
+		stat.innerHTML="Congrats, You won in this spin! :) <br><br> Points: "+picpoints;
 	}
 	else
 	{	picpoints--;
-		stat.innerHTML="Better luck, next time :/ <br> Points: "+picpoints;
+		stat.innerHTML="Better luck, next time :/ <br><br> Points: "+picpoints;
 	}
 }
 
