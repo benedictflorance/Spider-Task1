@@ -45,7 +45,7 @@ function addPics(e){
 	}
 	if(a==b&b==c)
 	{	picpoints+=50;
-		stat.innerHTML="Congrats, You won in this spin! :) <br><br> Points: "+picpoints;
+		stat.innerHTML="Congrats, You won! :) <br><br> Points: "+picpoints;
 	}
 	else
 	{	picpoints--;

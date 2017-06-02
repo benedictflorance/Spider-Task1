@@ -64,7 +64,5 @@ margin-left:10vw;}
 	.box{
 	width:24vw;
 	height:24vh;}
-#container{
-	padding-left:7vw;
+#container{padding-left:1vw;}
 }
-#copy{font-size:10px;}
