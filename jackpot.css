@@ -1,0 +1,37 @@
+.box{
+	width:175px;
+	height:175px;
+	float: left;
+	border-width:3px;
+	border-radius:5px;
+	border-color: black;
+	border-style: solid;
+	float: left;
+	margin:15px;
+	text-align:center;
+	padding: 0px 5px 0px 5px;
+}
+.box p{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 3px;
+	font-size: 100px;
+	position: relative;
+	bottom: 40%;
+}
+#button{
+	clear:both;
+	text-align: center;
+	width:60px;
+	padding:5px;
+	margin:10px;
+	border-width:3px;
+	border-radius:5px;
+	border-color: black;
+	border-style: solid;
+	font-family: 'PT Sans', sans-serif;
+}
+#spin{
+	text-decoration:none;
+	font-color: red;
+	font-size: 25px;
+}
