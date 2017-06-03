@@ -40,7 +40,7 @@ h1,h2{
 	margin-left:5.5vw;
 	float:left;
 	text-align: center;
-	padding:1vh 0.5vw 1vh 0.5vw;
+	padding:2vh 0.5vw 1vh 0.5vw;
 	border-width:1.5px;
 	border-radius:2px;
 	border-color: #000000;
@@ -58,11 +58,26 @@ a:hover{
 color: #0f56c1;
 text-shadow: 1px 1px 0px #4ee549;
 }
+#machine{padding-left:0px;}
+#setsize{width:100px;
+height: 100px;}
 #status{clear:both;
 margin-left:10vw;}
 @media only screen and (max-width: 768px) {
 	.box{
 	width:24vw;
-	height:24vh;}
-#container{padding-left:1vw;}
+	height:18vh;}
+#container{padding-left:1.5vw;}
+#setsize{
+	width: 75px;
+	height: 75px;
+}
+.box p{
+	position: relative;
+	bottom: 15vh;
+}
+.button{
+	padding:1vh 0.25vw 1vh 0.25vw;
+}
+#machine{padding-left:5vw;}
 }

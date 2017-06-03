@@ -33,15 +33,15 @@ function addPics(e){
 	e.preventDefault();
 	//To increase the probability for winning, at some random try within 20 all the boxes are made the same number
 	if(incr==countpic)
-	{b1.innerHTML=b2.innerHTML=b3.innerHTML="<img src=\"images\\"+Math.floor(Math.random()*9+1)+".png\" width=100px height=100px />"
+	{b1.innerHTML=b2.innerHTML=b3.innerHTML="<img src=\"images\\"+Math.floor(Math.random()*9+1)+".png\" id=\"setsize\" />"
 		incr+=20;}
 	else{
 	var a=Math.floor(Math.random()*9+1);
 	var b=Math.floor(Math.random()*9+1);
 	var c=Math.floor(Math.random()*9+1);
-	b1.innerHTML="<img src=\"images\\"+a+".png\" width=100px height=100px />"
-	b2.innerHTML="<img src=\"images\\"+b+".png\" width=100px height=100px />"
-	b3.innerHTML="<img src=\"images\\"+c+".png\" width=100px height=100px />"
+	b1.innerHTML="<img src=\"images\\"+a+".png\" id=\"setsize\" />"
+	b2.innerHTML="<img src=\"images\\"+b+".png\" id=\"setsize\" />"
+	b3.innerHTML="<img src=\"images\\"+c+".png\" id=\"setsize\" />"
 	}
 	if(a==b&b==c)
 	{	picpoints+=50;
