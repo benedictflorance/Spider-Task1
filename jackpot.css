@@ -65,18 +65,18 @@ margin-left:10vw;}
 @media only screen and (max-width: 768px) {
 	.box{
 	width:24vw;
-	height:18vh;}
+	height:18vh;
+	padding-bottom: 2vh;}
 #container{padding-left:1.5vw;}
 #setsize{
 	width: 75px;
 	height: 75px;
 }
 .box p{
-	position: relative;
-	bottom: 80%;
+	line-height:12vw;
 }
 .button{
 	padding:1vh 0.25vw 1vh 0.25vw;
 }
-#machine{padding-left:5vw;}
+#machine{padding-left:5vw}
 }
