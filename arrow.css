@@ -1,0 +1,44 @@
+body{margin:7vh 22vw;
+	padding:0px;
+	background-image: url("bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+canvas { background: rgb(179,225,234);
+margin:0px;
+border-width: 2px 2px 0px 2px;
+border-color: black;
+border-style: solid; }
+#lives,#score,#status{
+	clear: both;
+	margin:0px;
+	width:740px;
+	padding:5px;
+	text-align: center;
+	font-weight:bold;
+	color: #f24646;
+    font-family: 'Open Sans', sans-serif;
+    border-width: 0px 2px 0px 2px;
+	border-color: black;
+	border-style: solid;
+	background: rgb(179,225,234);
+}
+#status{
+	color:black;
+	border-width: 0px 2px 2px 2px;
+	background: rgb(146,192,17);
+	margin-bottom: 4vh;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-weight:bold;
+    font-family: 'Open Sans', sans-serif;
+	padding:5px;
+	margin:0px 8vw 0px 10vw;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: black;
+	background: gray;
+}
